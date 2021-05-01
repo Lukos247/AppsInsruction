@@ -51,7 +51,8 @@
             
             
             
-            
+ # Default Config 
+    multiDexEnabled true
  # Gradle Project Settings to add:
  {
      // МОЯ ИНТЕГРАЦИЯ НАЧИНАЕТСЯ ОТСЮДА
@@ -107,7 +108,7 @@ repositories {
     }
     apply plugin: 'com.google.gms.google-services'
     apply plugin: 'kotlin-android'
-    }
+    
 
 # Gradle App Level
 
