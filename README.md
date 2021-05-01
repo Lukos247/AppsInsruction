@@ -53,6 +53,7 @@
             
             
  # Gradle Project Settings to add:
+ {
      // МОЯ ИНТЕГРАЦИЯ НАЧИНАЕТСЯ ОТСЮДА
 
     //ЯНДЕКС
@@ -102,11 +103,11 @@
 
 }
 repositories {
-    mavenCentral()
-}
-apply plugin: 'com.google.gms.google-services'
-apply plugin: 'kotlin-android'
-
+     mavenCentral()
+    }
+    apply plugin: 'com.google.gms.google-services'
+    apply plugin: 'kotlin-android'
+    }
 
 # Gradle App Level
 
@@ -133,6 +134,7 @@ apply plugin: 'kotlin-android'
     
 # Firebase settings:
 Из doc файла скачать google-services.json и закинуть его в папку проекта
+![Screenshot](for_instruction.png)
 
 # TO DO NEXT:
 Переименовать имя пакета, заменить имя приложения, вставить иконку, протестировать, скинуть apk на тест, если все ок, заливать в Google Play на впс из документа. Имя, описание, дизайн будут приложены. Для каждого приложения сохранить ключ подписи.
