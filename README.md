@@ -17,6 +17,7 @@
     
  # Application config
         android:usesCleartextTraffic="true"
+        android:name=".MyApp"
         
  # LoaderActivity Settings
          <activity
